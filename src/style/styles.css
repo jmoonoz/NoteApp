@@ -55,7 +55,7 @@ footer p {
   word-wrap: break-word;
 }
 
-.note button {
+/* .note button {
   position: relative;
   float: right;
   margin-right: 10px;
@@ -65,7 +65,7 @@ footer p {
   height: 36px;
   cursor: pointer;
   outline: none;
-}
+} */
 
 form {
   position: relative;
