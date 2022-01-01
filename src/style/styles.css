@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -20,7 +24,7 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: 'Pushster', cursive;
   font-weight: 200;
 }
 
