@@ -27,6 +27,9 @@ header h1 {
   font-family: 'Pushster', cursive;
   font-weight: 200;
 }
+header p {
+  display: block;
+}
 
 footer {
   position: absolute;
@@ -104,3 +107,4 @@ form button {
   cursor: pointer;
   outline: none;
 }
+

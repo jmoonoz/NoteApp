@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container, Form } from "reactstrap";
 
 function CreateArea(props) {
   // state is established here with two properties, title and content
@@ -37,9 +38,9 @@ function CreateArea(props) {
   }
 
   return (
-   
-      <div>
-        <form>
+
+    <Container>
+        <Form>
           <input
             name="title"
             onChange={handleChange}
@@ -54,8 +55,9 @@ function CreateArea(props) {
             rows="3"
             required />
           <button onClick={submitNote}>Add</button>
-        </form>
-      </div>
+        </Form>
+    </Container>
+
   );
 }
 
